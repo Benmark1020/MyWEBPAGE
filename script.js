@@ -12,11 +12,11 @@ greet("SANA MASARAP ULAM MO HEHEHEHE");
 
 const themeButton = document.getElementById("theme-toggle");
 
-// Palitan ang dark mode at light mode
+// Dito nag cchange ng theme kapag na click ang button
 themeButton.addEventListener("click", function () {
     document.body.classList.toggle("light-mode");
 
-    // Palitan din ang text ng button
+    // Palitan ng text and button
     if (document.body.classList.contains("light-mode")) {
         themeButton.textContent = "🌙 Dark Mode";
     } else {

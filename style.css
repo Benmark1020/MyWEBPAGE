@@ -181,7 +181,7 @@ footer {
     border-top: 1px solid var(--border);
 }
 
-/* Light mode: controlled by JavaScript */
+/* Dito gumawa ako ng light&fark:mode, may onting javascript din sya */
 body.light-mode {
     color-scheme: light;
     --bg: #f4f6ff;
